@@ -118,12 +118,9 @@ p{
     font-weight: 600;
   }
 #chanceCount {
-    
     position: absolute;
     top: 1em;
-    
     font-weight: 600;
-    
 }
 #word {
     font-size: 20px;
@@ -134,9 +131,4 @@ p{
 
 .hide {
     display: none;
-  }
-
-.resultText{
-    font-size:50px;
-    font-weight: 800;
   }
