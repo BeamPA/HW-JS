@@ -54,7 +54,7 @@ const stopGame = () => {
     controls.classList.remove("hide");
 };
 
-document.write("<h3> Word Guessing</h3> ");
+document.write("<h3>✨Word Guessing🛸</h3>");
 
 //Generate Word Function
 const generateWord = () => {
@@ -64,7 +64,7 @@ const generateWord = () => {
     randomHint = options[randomWord];
 
     hintRef.innerHTML = `<div id="wordHint">
-    <span>Hint: </span>${randomHint}</div>`;
+    <span>♦ Hint❓: </span>${randomHint}</div>`;
     
     let displayItem = "";
     randomWord.split("").forEach((value) => {
@@ -73,7 +73,7 @@ const generateWord = () => {
 
   //Display each element as span
     userInpSection.innerHTML = displayItem;
-    userInpSection.innerHTML += `<div id='chanceCount'>Chances Left: ${lossCount}</div>`;
+    userInpSection.innerHTML += `<div id='chanceCount'>❤️: ${lossCount}</div>`;
 };
 
 //Initial Function
@@ -120,10 +120,10 @@ const init = () => {
         lossCount -= 1;
         document.getElementById(
             "chanceCount"
-        ).innerText = `Chances Left: ${lossCount}`;
+        ).innerText = `❤️: ${lossCount}`;
 
         if (lossCount == 0) {
-            alert("Game Over ")
+            alert("Game Over")
             word.innerHTML = `The word was: <span>${randomWord}</span>`;
             blocker();
         }
