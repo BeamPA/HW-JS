@@ -87,8 +87,6 @@ p{
     gap: 0.8em 1.5em;
     justify-content: center;
     margin-top: 2em;
-    
-    
 }
 #letter-container button {
     background-color: #ffffff;
@@ -96,10 +94,11 @@ p{
     font-size : 18px;
     color: #FFB6C1;
     outline: none;
-    border-radius: 1.5em;
+    border-radius: 2em;
     cursor: pointer;
     height: 3em;
     width: 3em;
+    text-shadow: 1px 1px #000000;
 }
 #letter-container .correct {
     background-color: #008000;
