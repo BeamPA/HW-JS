@@ -119,10 +119,10 @@ p{
     font-weight: 600;
   }
 #chanceCount {
-    margin: 1em 0;
+    
     position: absolute;
-    top: 0.62em;
-    right: 2em;
+    top: 1em;
+    
     font-weight: 600;
     
 }
@@ -132,10 +132,7 @@ p{
     font-weight: 600;
     margin: 1em 0 2em 0;
   }
-#word span {
-    text-transform: lowercase;
-    font-weight: 600;
-}
+
 .hide {
     display: none;
   }
