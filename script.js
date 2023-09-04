@@ -28,7 +28,6 @@ const controls = document.querySelector(".controls-container");
 const startBtn = document.getElementById("start");
 const letterContainer = document.getElementById("letter-container");
 const userInpSection = document.getElementById("user-input-section");
-//const resultText = document.getElementById("result");
 const word = document.getElementById("word");
 const words = Object.keys(options);
 let randomWord = "",
@@ -45,7 +44,6 @@ const blocker = () => {
   stopGame();
 };
 
-
 startBtn.addEventListener("click", () => {
     controls.classList.add("hide");
   init();
@@ -55,7 +53,6 @@ startBtn.addEventListener("click", () => {
 const stopGame = () => {
     controls.classList.remove("hide");
 };
-
 
 document.write("<h3> Word Guessing</h3> ");
 
@@ -77,9 +74,6 @@ const generateWord = () => {
   //Display each element as span
     userInpSection.innerHTML = displayItem;
     userInpSection.innerHTML += `<div id='chanceCount'>Chances Left: ${lossCount}</div>`;
-
-   
-
 };
 
 //Initial Function
@@ -105,8 +99,8 @@ const init = () => {
       let charArray = randomWord.toLowerCase().split("");
       let inputSpace = document.getElementsByClassName("inputSpace");
 
-      //If array contains clicked value replace the matched Dash with Letter
-      if (charArray.includes(button.innerText)) {
+    //If array contains clicked value replace the matched Dash with Letter
+    if (charArray.includes(button.innerText)) {
         charArray.forEach((char, index) => {
           if (char === button.innerText) {
             button.classList.add("correct");
@@ -131,16 +125,12 @@ const init = () => {
         if (lossCount == 0) {
             alert("Game Over ")
             word.innerHTML = `The word was: <span>${randomWord}</span>`;
-            //resultText.innerHTML = "Game Over";
             blocker();
         }
       }
-
-      //Disable clicked buttons
-        button.disabled = true;
     });
 
-    //Append generated buttons to the letters container
+    //Append generated buttons to the letters
     letterContainer.appendChild(button);
   }
 };
