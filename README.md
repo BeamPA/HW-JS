@@ -11,6 +11,5 @@ mini project ในครั้งนี้
 -   `HTML`
 -   `CSS`
 -   `JavaScript`
-## ขัhนตอนในการติดตั้ง
-git clone https://github.com/BeamPA/HW-JS.git
-[enter link description here](https://github.com/BeamPA/HW-JS.git)
+## ขั้นตอนในการติดตั้ง
+[ \[git clone https://github.com/BeamPA/HW-JS.git -b main\]]
