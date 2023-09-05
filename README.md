@@ -1,6 +1,5 @@
-# HW-JS
 # เกมทายคำเกี่ยวกับสัตว์
-เป็นเกมที่เขียนด้วย HTML  ,Javascrips ,CSS 
+mini project ในครั้งนี้
 เป็นเกมทายคำศัพท์ภาษาอังกฤษเกี่ยวกับสัตว์ต่างๆ
 
 
@@ -12,3 +11,6 @@
 -   `HTML`
 -   `CSS`
 -   `JavaScript`
+## ขัhนตอนในการติดตั้ง
+git clone https://github.com/BeamPA/HW-JS.git
+[enter link description here](https://github.com/BeamPA/HW-JS.git)
